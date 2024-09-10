@@ -1,0 +1,23 @@
+{
+    "name": "timonkot13/bot",
+    "description": "test task",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Timonkot13\\Bot\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "timonkot131",
+            "email": "timonoid01@gmail.com"
+        }
+    ],
+    "require": {
+        "telegram-bot/api": "^2.5"
+    },
+    "require-dev": {
+        "symfony/symfony": "^7.1"
+    }
+}
